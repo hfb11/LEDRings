@@ -23,6 +23,9 @@ namespace LEDRings
         private double profibility;
         private double availableAmount;
 
+        //Topic:    hardware/0/led/#led/rgb
+        //Payload:  #rrggbb
+
         public MainWindow()
         {
             InitializeComponent();
